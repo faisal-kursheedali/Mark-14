@@ -13,6 +13,8 @@ body{
     margin: auto;
     margin-top: 2%;
     position: fixed;
+    overflow:visible;
+    overflow-x: hidden;
     left: 0;
     border: solid black;
     background-color: rgb(218, 151, 151);
