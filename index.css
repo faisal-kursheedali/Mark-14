@@ -1,0 +1,62 @@
+body{
+    background-color: rgb(78, 52, 52);
+}
+.head{
+    text-align: center;
+    color: white;
+    font-size:larger;
+}
+.container{
+    height: 52%;
+    width: 50%;
+    text-align: center;
+    margin: auto;
+    margin-top: 2%;
+    overflow-x: hidden;
+    position: fixed;
+    left: 0;
+    border: solid black;
+    background-color: rgb(218, 151, 151);
+
+}
+label{
+    display: block;
+    font-size: larger;
+    margin: 0.5rem;
+}
+input{
+    width: 30%;
+    padding: 0.25rem;
+    margin: 1rem;
+}
+#button{
+    width: 20%;
+    margin: 1rem;
+    padding: 0.45rem;
+}
+#output{
+    position: absolute;
+    height: 52%;
+    width: 50%;
+    overflow-x: hidden;
+    margin-top: 2%;
+    border: solid black;
+    position: fixed;
+    right: 0;
+    text-align: center;
+    font-size: xx-large;
+    background-color: rgb(138, 62, 62);
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+
+    
+}
+/* #outputclass{
+    width: 50%;
+    text-align: center;
+    position: fixed;
+    border: solid black;
+} */
