@@ -22,7 +22,7 @@ body{
 }
 label{
     display: block;
-    font-size: larger;
+    font-size: large;
     margin: 0.5rem;
     width: auto;
 }
@@ -32,7 +32,7 @@ input{
     margin: 1rem;
 }
 #button{
-    width: 20%;
+    width: auto;
     margin: 1rem;
     padding: 0.45rem;
 }
