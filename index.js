@@ -9,12 +9,18 @@ function profitLossCalculation(initial,quantity,current){
     if(initial > current){
         var loss=(initial-current)*quantity;
         var lossPersentage=(loss/initial)*100;
+        outPut.style.backgroundColor='black';
+        outPut.style.color='red';
         outputFunction(`Hey it is loss😕😕 of ${loss.toFixed(2)} and of ${lossPersentage.toFixed(2)}% loss☹️☹️`);
     }else if(current > initial){
         var profit=(current-initial)*quantity;
         var profitPersentage=(profit/initial)*100;
+        outPut.style.backgroundColor='white';
+        outPut.style.color='green';
         outputFunction(`Hey it is profit🥳🥳 of ${profit.toFixed(2)} and of ${profitPersentage.toFixed(2)}% profit🎉🎉`);
     }else{
+        outPut.style.backgroundColor='rgb(138, 62, 62)';
+        outPut.style.color='black';
         outputFunction("🥱🥱no loss and no gain🤜🤛 ");
     }
 }
